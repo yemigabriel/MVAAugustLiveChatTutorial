@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mvacontest.cellmemberstut" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android= "http://schemas.android.com/apk/res/android">
+
+    <name>Cell Members Tutorial</name>
+
+    <description>
+       A sample app for the MVA live chat tutorial
+    </description>
+
+    <author email="info@mvacontest.com" href="http://mvacontest.com">
+        MVA Tutorials
+    </author>
+   
+
+   
+    <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.device" />
+
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="nl.x-services.plugins.socialsharing" />
+    
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-targetSdkVersion" value="17" />
+    <preference name="android-maxSdkVersion" value="19" /> 
+
+    <icon src="images/logo.png" />
+    
+    <access origin="*" />
+
+</widget>
